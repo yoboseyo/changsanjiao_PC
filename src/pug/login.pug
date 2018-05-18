@@ -1,0 +1,28 @@
+extends ../public/pug/layouts/main
+block style
+	link(rel="stylesheet", href="css/login.css")
+
+block content
+	.container-login.clearfix
+		.logo-sec.clearfix
+			.logo
+			.text
+				h2 GTM
+				h1 上海国际技术商城
+		.clearfix
+			form.login-form
+				h3 账户登录
+				.form-group
+					input.form-control(placeholder="请输入账号")
+				.form-group
+					input.form-control(type="password" placeholder="请输入密码")
+				p.forget-password
+					a(href="javascript:;") 忘记密码?
+				button.login-btn.btn.btn-primary.btn-lg.btn-block 登录
+				p.link-to-register 还没有账号? 
+					|
+					a(href="javascript:;") 忘记密码
+				button.entry-company.btn.btn-default.btn-lg.btn-block 企业报名注册入口
+				button.entry-organization.btn.btn-default.btn-lg.btn-block 企业报名注册入口
+		p.record-info 沪ICP备12018056号-1
+block foot

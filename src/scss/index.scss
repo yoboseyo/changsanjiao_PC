@@ -1,0 +1,46 @@
+// 依赖
+@import "../public/scss/variables";
+@import "../public/scss/mixins";
+
+// 以下书写你的页面代码
+.navbar-inverse{
+  border:none;
+}
+/* 禁用响应式示例 */
+body{
+  min-width: 1200px !important;;
+}
+.container{
+  width: 1200px!important;
+}
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+.navbar-header {
+  float: left;
+}
+.navbar-brand {
+  margin-left: -15px;
+}
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav.navbar-right{
+  float: right;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+.jumbotron h1, .jumbotron .h1{
+  font-size: 63px;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+  padding: 48px 60px;
+}

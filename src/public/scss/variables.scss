@@ -1,0 +1,11 @@
+// bootstrap定制变量说明 http://v3.bootcss.com/customize//#less-variables
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+// 以下写你的公共代码
+
+// 导航条定制
+$navbar-border-radius:0;
+$navbar-inverse-brand-color:#ffef02;
+$navbar-inverse-brand-hover-color:$navbar-inverse-brand-color;
+$navbar-inverse-link-active-bg:$navbar-inverse-brand-color;
+$navbar-inverse-link-active-color:#333;

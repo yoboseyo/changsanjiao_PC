@@ -1,0 +1,5 @@
+{
+  "srcPath":"src",
+  "buildPath": "dist",
+  "devPath": "dev"
+}

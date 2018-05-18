@@ -1,0 +1,52 @@
+//- 引入基础布局，并重构
+extends ./base
+//- 头部
+block head
+    block head-main
+
+block style
+    block style-main
+
+block content
+    nav.navbar.navbar-default
+      .container.nav-container
+        .navbar-header.clearfix
+          a.navbar-brand(href='#')
+          .text
+            h2 GTM
+            h1 上海国际技术商城
+        ul.nav.navbar-nav
+          li.active
+            a(href='#') 关于大赛
+          li
+            a(href='#') 需求征集
+          li
+            a(href='#') 需求征集
+          li
+            a(href='#') 大赛新闻
+          li
+            a(href='#') 用户中心
+          li
+            a(href='#') 管理入口
+        ul.nav.navbar-nav.navbar-right
+          li.dropdown
+            a.dropdown-toggle(data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false") 上海市 - 登录/注册
+            ul.dropdown-menu
+              li
+                a 江苏省 - 登录/注册
+              li
+                a 浙江省 - 登录/注册
+              li
+                a 安徽省 - 登录/注册
+    block content-main
+
+block foot
+    footer
+        p.text-center ©2017 稻壳互联 版权所有 | 沪ICP备12018056号-1 | 上海市宝山区逸仙路3000号6号楼103-105 | 4008-228-408
+        p
+            br
+    block foot-main
+
+block script
+    block script-main
+      script(src='js/plugins/bootstrap/dropdown.js')

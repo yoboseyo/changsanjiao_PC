@@ -1,0 +1,35 @@
+{
+  "concatJs":[
+    {
+      "target":"js/vendor.js",
+      "items":[
+        "js/plugins/layer/layer.js",
+        "js/plugins/layer/layer.config.js",
+
+        "js/plugins/bootstrap/transition.js",
+        "js/plugins/bootstrap/affix.js",
+        "js/plugins/bootstrap/alert.js",
+        "js/plugins/bootstrap/button.js",
+        "js/plugins/bootstrap/carousel.js",
+        "js/plugins/bootstrap/collapse.js",
+        "js/plugins/bootstrap/dropdown.js",
+        "js/plugins/bootstrap/modal.js",
+        "js/plugins/bootstrap/tooltip.js",
+        "js/plugins/bootstrap/popover.js",
+        "js/plugins/bootstrap/scrollspy.js",
+        "js/plugins/bootstrap/tab.js"
+      ]
+    }
+  ],
+  "concatCss":[
+    {
+      "target":"css/vendor.css",
+      "items":[]
+    }
+  ],
+  "compressionImage":{
+    "enable":true,
+    "quality":90,
+    "exclude":[]
+  }
+}

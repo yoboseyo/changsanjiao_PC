@@ -1,0 +1,167 @@
+body{
+	background: #030625;
+}
+.container.content-container{
+	position: relative;
+	width: 1228px;
+	padding: 0 0 129px;
+	margin: 0 auto;
+	color: #fff;
+	.content-bg{
+		position: absolute;
+		top: -32px;
+		right: -327px;
+		width: 848px;
+		height: 810px;
+	}
+	h2{
+		margin: 0;
+		margin-top: 238px;
+		font-size: 57px;
+		font-weight: bold;
+		line-height: 87px;
+	}
+	h3{
+		margin: 0;
+		margin-bottom: 202px;
+		font-size: 34px;
+		font-weight: lighter;
+		line-height: 62px;
+	}
+	ul{
+		height: 80px;
+		padding: 0;
+		margin: 0;
+		li{
+			float: left;
+			span{
+				width: 80px;
+				height: 80px;
+				margin-right: 21px;
+				float: left;
+			}
+			.icon-company{
+				background: url('../icons/企业@2x.png') center no-repeat;
+			}
+			.icon-organization{
+				background: url('../icons/机构@2x.png') center no-repeat;
+			}
+			.icon-demand{
+				background: url('../icons/平台@2x.png') center no-repeat;
+			}
+			.txt{
+				width: 206px;
+				padding-top: 10px;
+				float: left;
+				p{
+					margin: 0;
+					&:first-child{
+						margin-bottom: 5px;
+						font-size: 28px;
+						font-weight: bold;
+					}
+					&:last-child{
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
+.footer-wrap{
+	height: 1089px;
+	background: url('../images/index_bg_2.png') center top no-repeat;
+	.container.footer{
+		width: 1228px;
+		padding: 0;
+		padding-top: 93px;
+		p{
+			margin-bottom: 0;
+		}
+		.top{
+			margin-bottom: 70px;
+			text-align: center;
+			.title{
+				font-size: 60px;
+				line-height: 88px;
+				color: #fff;
+			}
+			.subtitle{
+				font-size: 24px;
+				font-weight: lighter;
+				line-height: 50px;
+				color: #C4C1C1;
+			}
+			.date{
+				font-size: 23px;
+				line-height: 59px;
+				color: #E7F403;
+			}
+		}
+		.bottom{
+			margin-bottom: 46px;
+			ul{
+				width: 600px;
+				float: left;
+				&:first-child{
+					position: relative;
+					padding-left: 81px;
+					.indent{
+						text-indent: 86px;
+					}
+					&:after{
+						position: absolute;
+						right: 0;
+						top: 150px;
+						content: '';
+						height: 226px;
+						border-right: 1px dashed #878897;
+					}
+				}
+				&:last-child{
+					padding-left: 154px;
+					.indent{
+						text-indent: 135px;
+					}
+				}
+				li{
+					font-size: 16px;
+					line-height: 46px;
+					color: #D8D8D8;
+					&:first-child{
+						font-size: 23px;
+						line-height: 97px;
+						color: #fff;
+					}
+				}
+			}
+		}
+		.detail-btn-wrap{
+			margin-bottom: 134px;
+			button{
+				position: relative;
+				width:206px;
+				height: 70px;
+				margin: 0 auto;
+				border-radius: 0;
+				font-size: 18px;
+				line-height: 38px;
+				background: #371EE6;
+				.icon-go{
+					position: absolute;
+					right: 20px;
+					top: 26px;
+					width: 21px;
+					height: 19px;
+					background: url('../icons/icon_go@2x.png') center no-repeat;
+				}
+			}
+		}
+		.record-info{
+			font-size: 16px;
+			line-height: 18px;
+			text-align: center;
+			color: #6E719E;
+		}
+	}
+}

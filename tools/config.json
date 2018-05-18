@@ -1,0 +1,12 @@
+{
+  "concatJs":[
+    {"distName":"vendor.js","items":[]}
+  ],
+  "concatCss":[
+    {"distName":"vendor.css","items":[]}
+  ],
+  "imageCompression":{
+    "sourcePath":"",
+    "distPath":"images"
+  }
+}

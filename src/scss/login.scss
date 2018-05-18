@@ -1,0 +1,83 @@
+html,body{
+	height: 100%;
+}
+.container-login{
+	width: 1920px;
+	height: 100%;
+	padding: 70px 245px 17px 299px;
+	margin: 0 auto;
+	background: url('../images/login_bg.jpg') center top no-repeat;
+	background-size: cover;
+	.logo-sec{
+		div{
+			float: left;
+		}
+		.logo{
+			width: 82px;
+			height: 77px;
+			margin-right: 21px;
+			background: url('../icons/logo@2x.png') center no-repeat;
+			background-size: cover;
+		}
+		.text{
+			text-align: center;
+			color: #bfbfc7;
+			h2{
+				margin: 0;
+				font-size: 30px;
+				line-height: 46px;
+				font-weight: bold;
+			}
+			h1{
+				margin: 0;
+				font-size: 16px;
+				line-height: 28px;
+				font-weight: bold;
+			}
+		}
+	}
+	.login-form{
+		width: 494px;
+		height: 600px;
+		padding: 0 57px;
+		float: right;
+		color: #fff;
+		background: rgba(255,255,255,0.1);
+		h3{
+			margin: 0;
+			font-size: 30px;
+			font-weight: bold;
+			line-height: 118px;
+			text-align: center;
+		}
+		.forget-password{
+			margin-bottom: 20px;
+			text-align: right;
+			a{
+				font-size: 16px;
+				line-height: 18px;
+				color: #FFEB0D;
+			}
+		}
+		.login-btn{
+			margin-bottom: 38px;
+		}
+		.link-to-register{
+			margin-bottom: 38px;
+			font-size: 16px;
+			line-height: 18px;
+			color: #999;
+			text-align: center;
+			a{
+				color: #999;
+			}
+		}
+	}
+	.record-info{
+		margin: 206px 0 0;
+		font-size: 16px;
+		line-height: 18px;
+		color: #bfbfc7;
+		text-align: center;
+	}
+}

@@ -1,0 +1,175 @@
+// 依赖
+@import "../public/scss/variables";
+@import "../public/scss/mixins";
+
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
+//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+// 全局css
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// 组件
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/media";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// js插件配套的css样式
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+// 工具类
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+// 以下写你的公共样式
+// reset
+ul,li,dl,dt,dd{
+	list-style: none;
+	margin: 0;
+}
+// form ui reset
+.form-group{
+	margin-bottom: 20px;
+	input.form-control{
+		height: 50px;
+		padding: 15px 20px;
+		font-size: 16px;
+		line-height: 18px;
+		color: #999;
+		background: transparent;
+	}
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus
+{
+	background: #371EE6;
+	border-color: #371EE6;
+	outline: none;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus{
+	color: #fff;
+	background: transparent;
+}
+.btn-lg{
+	padding: 15px 20px;
+	font-size: 16px;
+	line-height: 18px;
+}
+.btn-block + .btn-block{
+	margin-top: 20px;
+}
+
+// header
+.navbar.navbar-default{
+	background: #030625;
+	border: none;
+	margin-bottom: 0;
+	.container.nav-container{
+		position: relative;
+		width: 1228px;
+		height: 88px;
+		padding: 0;
+		margin: 0 auto;
+		background: rgba(255,255,255,0.03);
+		.navbar-header{
+			a{
+				width: 63px;
+				height: 59px;
+				margin: 15px 16px 0 0;
+				float: left;
+				background: url('../icons/logo_sm@2x.png') center no-repeat;
+			}
+			.text{
+				margin-right: 64px;
+				float: left;
+				text-align: center;
+				color: #fff;
+				h2{
+					margin: 0;
+					margin-top: 19px;
+					font-size: 23px;
+					font-weight: bold;
+					line-height: 25px;
+				}
+				h1{
+					margin: 0;
+					font-size: 12px;
+					font-weight: bold;
+					line-height: 33px;
+				}
+			}
+		}
+		.nav.navbar-nav li{
+			width: 129px;
+			text-align: center;
+			a{
+				padding: 0;
+				font-size: 16px;
+				line-height: 88px;
+				color: #fff;
+			}
+		}
+		.nav.navbar-nav li.active a{
+			background: #371EE6;
+		}
+		.navbar-nav.navbar-right{
+			width: 212px;
+			margin-right: 0;
+			>li{
+				width: 100%
+			}
+			.dropdown.open>a{
+				background: #371EE6;
+			}
+			.dropdown-menu{
+				width: 100%;
+				padding: 0;
+				background: rgba(255,255,255,0.2);
+				li{
+					width: 100%;
+				}
+			}
+		}
+		&:before{
+			position: absolute;
+			left: -30px;
+			top: 0;
+			content: '';
+			width: 30px;
+			height: 88px;
+			background: rgba(255,255,255,0.03);
+		}
+	}
+}
